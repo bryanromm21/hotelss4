@@ -1,12 +1,22 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+## como usar
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+- antes de iniciar el proyecto importe la base de datos en xammp y ejecute este comando php artisan storage:link.
+- de lo contrario realizamos los siguientes pasos ingrese este comando en terminar php artisan migrate para mirarlas tablas de laravel.
+- posterior mente realice este comando php artisan make:filament-user para crear al usuario admi.
+- finalmente use este comando php artisan storage:link para activar las vistas de la subida de imágenes.
+### Características
 
+* php artisan migrate
+* php artisan make:filament-user 
+* php artisan storage:link 
+
+### Instalación
+
+Siga estos pasos para instalar el proyecto:
+
+1. Clonar el repositorio
+2. importar la base de datos
+3. ¡Disfruta!
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
